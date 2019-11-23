@@ -1,0 +1,5 @@
+{
+    "hooks": {
+      "pre-commit": "npm run test:unit && npm run test:func && npm run build"
+    }
+}
