@@ -1,0 +1,40 @@
+{
+  "name": "file-hosting",
+  "version": "0.0.0-DEV",
+  "description": "A simple file hosting service",
+  "keywords": [
+    "file",
+    "host",
+    "hosting",
+    "upload",
+    "REST"
+  ],
+  "author": "Avahe Kellenberger",
+  "contributors": [
+    "Avahe Kellenberger <avahe@protonmail.ch>"
+  ],
+  "homepage": "https://github.com/avahe-kellenberger/file-hosting",
+  "bugs": "https://github.com/avahe-kellenberger/file-hosting/issues",
+  "license": "GPL-2.0-ONLY",
+  "devDependencies": {
+    "@types/express": "^4.17.2",
+    "@types/jest": "^24.0.22",
+    "@types/node": "^12.12.6",
+    "@typescript-eslint/eslint-plugin": "^2.6.1",
+    "@typescript-eslint/parser": "^2.6.1",
+    "eslint": "^6.6.0",
+    "eslint-plugin-jest": "^23.0.2",
+    "husky": "^3.1.0",
+    "jest": "^24.9.0",
+    "ts-jest": "^24.1.0",
+    "typescript": "^3.7.2"
+  },
+  "scripts": {
+    "test:unit": "jest --passWithNoTests test/unit/",
+    "test:func": "jest --passWithNoTests test/func/",
+    "build": "tsc -b ."
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
